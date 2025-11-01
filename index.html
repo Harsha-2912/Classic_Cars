@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classic Cars</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- menu -->
+ <div class="menu target center">
+    <div class="menu-line menu-line-1"></div>
+    <div class="menu-line menu-line-2"></div>
+ </div>
+ <!-- end of menu -->
+
+  <!-- Navbar -->
+<nav class="navbar target">
+    <a href="#home" class="navbar-link">Home</a>
+    <a href="#popular-cars" class="navbar-link">Popular Cars</a>
+    <a href="#video-gallery" class="navbar-link">Video Gallery</a>
+    <a href="#image-gallery" class="navbar-link">Image Gallery</a>
+    <a href="#contact" class="navbar-link">Contact</a>
+</nav>
+  <!-- end of Navbar -->
+
+  <!-- Section1 -->
+  <div class="wrapper">
+    <section class="section-1 target center"id="home">
+      <h1 class="section-heading section-1-heading">Classic Cars</h1>
+      <img src="classiccar.png" class="section-1-img" width="700px">
+    </section>
+  </div>
+  <!-- End of section1 -->
+
+    <!-- Section2 -->
+  <div class="wrapper">
+    <section class="section-1 target"id="popular-cars">
+      <h1 class="section-heading">Popular Cars</h1>
+      <div class="cards-wrapper center">
+        <div class="card">
+          <h2 class="car-name">Car Name</h2>
+          <img src="car1.jpeg" class="card-img">
+          <h3 class="car-price">$200,000</h3>
+          <button type="button" class="card-btn">See More</button>
+        </div>
+         <div class="card">
+          <h2 class="car-name">Car Name</h2>
+          <img src="car2.jpeg" class="card-img">
+          <h3 class="car-price">$100,000</h3>
+          <button type="button" class="card-btn">See More</button>
+        </div>
+         <div class="card">
+          <h2 class="car-name">Car Name</h2>
+          <img src="car3.jpeg" class="card-img">
+          <h3 class="car-price">$150,000</h3>
+          <button type="button" class="card-btn">See More</button>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- End of section2 -->
+
+     <!-- Section3 -->
+  <div class="wrapper">
+    <section class="section-3 target"id="video-gallery">
+      <h1 class="section-heading">Video Gallery</h1>
+      <div class="videos-wrapper center">
+        <video src="video1.mp4" muted loop class="video"></video>
+        <video src="video2.mp4" muted loop class="video"></video>
+        <video src="video3.mp4" muted loop class="video"></video>
+      </div>
+      <div class="videos-wrappe center">
+        <video src="video4.mp4" muted loop class="video"></video>
+        <video src="video5.mp4" muted loop class="video"></video>
+        <video src="video6.mp4" muted loop class="video"></video>
+      </div>
+    </section>
+  </div>
+  <!-- End of section3 -->
+
+     <!-- Section4 -->
+  <div class="wrapper">
+    <section class="section-1 target"id="image-gallery">
+      <h1 class="section-heading">Image Gallery</h1>
+      <div class="gallery  center">
+        <div class="gallery-shelf"></div>
+        <img src="c1.jpeg" class="gallery-img-1">
+        <img src="c2.jpeg" class="gallery-img-2">
+        <img src="c3.jpeg" class="gallery-img-3">
+      </div>
+      <div class="gallery center">
+        <div class="gallery-shelf"></div>
+        <img src="c4.jpeg" class="gallery-img-1">
+        <img src="c5.jpeg" class="gallery-img-2">
+        <img src="c6.jpeg" class="gallery-img-3">
+      </div>
+    </section>
+  </div>
+  <!-- End of section4 -->
+
+     <!-- Section5 -->
+  <div class="wrapper">
+    <section class="section-5 target" id="contact">
+      <h1 class="section-heading">Contact Us</h1>
+      <form class="contact-form">
+        <input type="text" class="form-input" placeholder="Your Full Name">
+        <input type="email" class="form-input" placeholder="Your Email">
+        <textarea class="form-input" placeholder="Enter Message"></textarea>
+        <input class="form-btn" type="submit" value="Submit">
+      </form>
+      <p class="copyright">
+        Copyright &copy;CodeAndCreate All Rights Reserved
+      </p>
+    </section>
+  </div>
+  <!-- End of section5 -->
+   <script src="script.js"></script> 
+</body>
+</html>
